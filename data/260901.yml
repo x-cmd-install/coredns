@@ -1,0 +1,58 @@
+about:
+  description: CoreDNS is a DNS server that chains plugins
+  license: Apache-2.0
+  homepage: https://coredns.io
+  head: c113fe4
+  archived: false
+  latestVersion: v1.14.7
+  collectedAt: 2026-09-01T05:24:11Z
+timeline:
+  created: 2016-03-18
+  lastCommit: 2026-08-29
+  lastRelease: 2026-08-19
+popularity:
+  star: 14284
+  watcher: 220
+  fork: 2519
+  release: 85
+  contributor: 475
+  pullRequest: 1191
+  issue: 2532
+language:
+  Go: 2703699
+  Makefile: 1731
+  Dockerfile: 1023
+totalLine: 2706453
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 1
+    mergedPR: 65
+    openPR: 29
+    closedIssue: 2
+    openIssue: 9
+    commit: 54
+  last90d:
+    since: 2026-06-03
+    release: 4
+    mergedPR: 257
+    openPR: 41
+    closedIssue: 14
+    openIssue: 12
+    commit: 250
+  last180d:
+    since: 2026-03-05
+    release: 6
+    mergedPR: 436
+    openPR: 48
+    closedIssue: 33
+    openIssue: 18
+    commit: 424
+  last360d:
+    since: 2025-09-06
+    release: 12
+    mergedPR: 723
+    openPR: 53
+    closedIssue: 66
+    openIssue: 36
+    commit: 713
