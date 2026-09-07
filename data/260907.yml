@@ -5,13 +5,13 @@ about:
   head: 9fb1859
   archived: false
   latestVersion: "v1.14.7"
-  collectedAt: 2026-09-07T04:38:47Z
+  collectedAt: 2026-09-07T19:42:55Z
 timeline:
   created: 2016-03-18
   lastCommit: 2026-09-07
   lastRelease: 2026-08-19
 popularity:
-  star: 14296
+  star: 14299
   watcher: 222
   fork: 2522
   release: 85
@@ -81,7 +81,7 @@ total:
   commit: 5078
 ---
 path: /home/runner/.x-repo/github.com/coredns/coredns
-collectedAt: 2026-09-07T04:38:55Z
+collectedAt: 2026-09-07T19:43:04Z
 loc:
   Go:
     code: 85961
@@ -271,7 +271,7 @@ checks:
       - 'Info: found contributions from: ClareAI, GoPlusSecurity, GoogleContainerTools, GreatFruitOmsk, akuity, akuityio, apoxy inc, argoproj, argoproj-labs, aws, clareai, coredns, coreweave, cryptousersecurity, gdgcloudhanoi, gigs, google, googlers, gsoc-cn, iceye-ltd, infoblox, istio, jsonresume, kubeflow, kubernetes, kubernetes-sigs, moby, nephio-project, node-forward, noisetor, okkur, okkur @rekkur, prometheus, prometheus-community, rekkur, resumic, slevenbits, tensorflow, txtdirect, walmart'
 ---
 eget:
-  collectedAt: 2026-09-07T04:38:56+00:00
+  collectedAt: 2026-09-07T19:43:05+00:00
   platform:
     darwin/arm64:
       name:  coredns_1.14.7_darwin_arm64.tgz
