@@ -5,9 +5,9 @@ CoreDNS is a DNS server that chains plugins
 - **Upstream**: <https://github.com/coredns/coredns>
 - **Homepage**: <https://coredns.io>
 - **Latest release**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-09-08
+- **Last commit**: 2026-09-09
 - **License**: Apache-2.0
-- **Stars**: 14304 · **Forks**: 2522 · **Open issues**: 2533 · **Contributors**: 478
+- **Stars**: 14303 · **Forks**: 2522 · **Open issues**: 2533 · **Contributors**: 478
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/coredns> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:50:45Z._
+_Last regenerated: 2026-09-09T19:01:40Z._
