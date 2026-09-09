@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 23535457,
       "digest": "sha256:49c2155e48a53c710eedcf8c6709bf5aee395e372bdca77ae978f042bf86c580",
-      "download_count": 44,
+      "download_count": 45,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:08Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 98,
       "digest": "sha256:19a66a5b2cfe7b34615f6f2bfda1c20f098676821038af4f12f16fd38d9e1e9e",
-      "download_count": 11,
+      "download_count": 12,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz.sha256"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 21406344,
       "digest": "sha256:0005d154d49c73a88b2c56f429f35106e46c4ca37ee6de4e4d482d7de5c4b8ba",
-      "download_count": 90,
+      "download_count": 93,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 98,
       "digest": "sha256:586e7fd7e94244540a739244fbeab744f24e33d16f2560a2e0772409914e26bb",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz.sha256"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 23066544,
       "digest": "sha256:9a09356438c6d9591cb80011a2a7a52f87fc3a113f6690e41f243f98b98faac9",
-      "download_count": 5197,
+      "download_count": 5508,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 97,
       "digest": "sha256:d8492cc5790a583264f06cefddfb9720ff6cde42901756918d1a778a694f5188",
-      "download_count": 589,
+      "download_count": 606,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz.sha256"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 21408976,
       "digest": "sha256:5c3d77d2691b3ca993081820f5ec1f45ff783c7e300eff7a27560d3a56ac612b",
-      "download_count": 26,
+      "download_count": 29,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm.tgz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 20355034,
       "digest": "sha256:bf26782d19b5340e3e6cb50f1ed6df72f58e4a30932c79d167f0f0a8b1e92e16",
-      "download_count": 1263,
+      "download_count": 1330,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 97,
       "digest": "sha256:6653dad6a5019fa1880bb8182204a9d10fb58bd56acc7547f7277693a2d89006",
-      "download_count": 166,
+      "download_count": 170,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz.sha256"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 18784635,
       "digest": "sha256:7b71975d3ee1ee64db35805e4ff2d506454467ff9af70581b1a5511025a3ab8e",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 100,
       "digest": "sha256:d807628116990c4df40008ecf3f8c4a4a4628cbec3f3fbbde50e114bda238f50",
-      "download_count": 117,
+      "download_count": 121,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz.sha256"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:087ef6856a646a27c432cca62631af68d1149d9777409fb71639922a1f8a99d7",
-      "download_count": 117,
+      "download_count": 121,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_ppc64le.tgz.sha256"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:1710308c3fc7f30624480ecf9db9f197f18ae7dd412cadbf7b863f688ffe2da8",
-      "download_count": 119,
+      "download_count": 123,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_riscv64.tgz.sha256"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 22540385,
       "digest": "sha256:930302ba8a21577ce76308b0c5693df1755f9d42431d8fad032322fe8ff97b9d",
-      "download_count": 42,
+      "download_count": 44,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 97,
       "digest": "sha256:8de98b78434ecc9346f5c9bd499d9975b3b84982fa9f5c4fcbce8a5fb9ec8725",
-      "download_count": 118,
+      "download_count": 122,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz.sha256"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 23420657,
       "digest": "sha256:19756e969e4ddd16ee0c189018e5659f6695113223e590709222433f7338504d",
-      "download_count": 205,
+      "download_count": 208,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:08Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:efbaf3c77a37b576d43702b77fbf6b10d31f78b2de5a9fb5e2802af3f1235b9f",
-      "download_count": 154,
+      "download_count": 158,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz.sha256"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 23421098,
       "digest": "sha256:6b718a5ed57d7034b1e4c3df500121307830da291d15cf8387f41c297c6fdd56",
-      "download_count": 214,
+      "download_count": 223,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 99,
       "digest": "sha256:80d77eeea034e06cbc9517a7c76c19f5f3b4ba1574340d411d53a1a0ed1ba655",
-      "download_count": 36,
+      "download_count": 37,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256"
