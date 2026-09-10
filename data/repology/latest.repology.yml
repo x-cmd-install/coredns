@@ -1,0 +1,874 @@
+- repo: aur
+  srcname: coredns-bin
+  binname: coredns-bin
+  visiblename: coredns-bin
+  version: 1.14.7
+  origversion: 1.14.7-1
+  status: newest
+  summary: A DNS server that chains plugins
+  maintainers:
+    - dominiquini@aur
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.10.0
+  origversion: 1.10.0-r6
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.10.0
+  origversion: 1.10.0-r6
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.10.1
+  origversion: 1.10.1-r8
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.10.1
+  origversion: 1.10.1-r8
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.1
+  origversion: 1.11.1-r9
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.1
+  origversion: 1.11.1-r9
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: coredns-git
+  binname: coredns-git
+  visiblename: coredns-git
+  version: 1.12.0.r3.g177253340
+  origversion: 1.12.0.r3.g177253340-1
+  status: rolling
+  summary: A DNS server that chains plugins
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: 1.11.3-r5
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.3
+  origversion: 1.11.3-r5
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.12.1
+  origversion: 1.12.1-r7
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.12.1
+  origversion: 1.12.1-r7
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.12.3
+  origversion: 1.12.3-r10
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.12.3
+  origversion: 1.12.3-r10
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.13.2
+  origversion: 1.13.2-r6
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.13.2
+  origversion: 1.13.2-r6
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.13.2
+  origversion: 1.13.2-r6
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.13.2
+  origversion: 1.13.2-r6
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.14.3
+  origversion: 1.14.3-3
+  status: outdated
+  summary: A DNS server that chains plugins
+  maintainers:
+    - silverrainz@aur
+    - hexchain@aur
+  licenses:
+    - Apache
+- repo: freebsd
+  srcname: dns/coredns
+  binname: coredns
+  visiblename: dns/coredns
+  version: 1.14.7
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - dns
+- repo: gentoo
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.14.6
+  origversion: null
+  status: outdated
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: gentoo
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.12.2
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: gentoo
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: gentoo
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.13.2
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: gentoo
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.14.3
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.7
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
+- repo: liguros_stable
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.12.2
+  origversion: null
+  status: outdated
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_stable
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_stable
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.12.1
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_develop
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.14.3
+  origversion: null
+  status: outdated
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_develop
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.13.2
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_develop
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: 1.12.2
+  origversion: null
+  status: legacy
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: liguros_develop
+  srcname: net-dns/coredns
+  visiblename: net-dns/coredns
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - zmedico@gentoo.org
+    - me@rahil.rocks
+    - proxy-maint@gentoo.org
+  licenses:
+    - Apache-2.0
+    - MIT
+    - BSD
+    - ISC
+    - MPL-2.0
+    - BSD-2
+  categories:
+    - net-dns
+- repo: nix_stable_24_05
+  srcname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: null
+  status: outdated
+  summary: A DNS server that runs middleware
+  maintainers:
+    - rushmore@webenchanter.com
+    - treffer+nixos@measite.de
+    - deltaduartedavid@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: null
+  status: outdated
+  summary: DNS server that runs middleware
+  maintainers:
+    - rushmore@webenchanter.com
+    - treffer+nixos@measite.de
+    - deltaduartedavid@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: null
+  status: outdated
+  summary: DNS server that runs middleware
+  maintainers:
+    - rushmore@webenchanter.com
+    - treffer+nixos@measite.de
+    - deltaduartedavid@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.3
+  origversion: null
+  status: outdated
+  summary: DNS server that runs middleware
+  maintainers:
+    - deltaduartedavid@gmail.com
+    - git@djds.dev
+    - write@ownrisk.dk
+    - treffer+nixos@measite.de
+    - rushmore@webenchanter.com
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.6
+  origversion: null
+  status: outdated
+  summary: DNS server that runs middleware
+  maintainers:
+    - deltaduartedavid@gmail.com
+    - git@djds.dev
+    - write@ownrisk.dk
+    - treffer+nixos@measite.de
+    - rushmore@webenchanter.com
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.6
+  origversion: null
+  status: outdated
+  summary: DNS server that runs middleware
+  maintainers:
+    - deltaduartedavid@gmail.com
+    - git@djds.dev
+    - write@ownrisk.dk
+    - treffer+nixos@measite.de
+    - rushmore@webenchanter.com
+  licenses:
+    - Apache-2.0
+- repo: openbsd
+  srcname: net/coredns
+  binname: coredns
+  visiblename: net/coredns
+  version: 1.14.7
+  origversion: null
+  status: newest
+  summary: fast and flexible DNS server/forwarder
+  maintainers:
+    - ajacoutot@openbsd.org
+  categories:
+    - net
+- repo: openeuler_22_03_lts_sp1
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.1.oe2203sp1
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp3
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.2.oe2203sp3
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp4
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.2.oe2203sp4
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.2.oe2403
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts_sp1
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.3.oe2403sp1
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_24_09
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.3.oe2409
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openeuler_25_03
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.11.3
+  origversion: 1.11.3-1.4.oe2503
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: openpkg_current
+  srcname: coredns
+  visiblename: coredns
+  version: 1.3.1.20190223
+  origversion: null
+  status: outdated
+  summary: DNS Server
+  licenses:
+    - Apache
+  categories:
+    - Networking
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: coredns
+  visiblename: coredns
+  version: 1.8.0
+  origversion: 1.8.0-bp155.2.21
+  status: outdated
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: coredns
+  visiblename: coredns
+  version: 1.8.0
+  origversion: 1.8.0-bp156.3.16
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: 1.11.3-bp156.4.3.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.12.1
+  origversion: 1.12.1-bp156.4.6.5
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.12.4
+  origversion: 1.12.4-bp156.4.9.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.0
+  origversion: 1.14.0-bp156.4.13.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.2
+  origversion: 1.14.2-bp156.4.16.1
+  status: outdated
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-debuginfo
+    - coredns-debugsource
+    - coredns-extras
+  visiblename: coredns
+  version: 1.14.7
+  origversion: 1.14.7-2.1
+  status: newest
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0 AND MPL-2.0
+  categories:
+    - Unspecified
+- repo: scoop
+  subrepo: main
+  binname: coredns
+  visiblename: coredns
+  version: 1.14.7
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.10.1
+  origversion: 1.10.1_4
+  status: outdated
+  summary: CoreDNS is a DNS server that chains plugins
+  maintainers:
+    - ncower@nil.dev
+  licenses:
+    - Apache-2.0
+- repo: wikidata
+  srcname: Q40025707
+  visiblename: CoreDNS
+  version: 1.14.7
+  origversion: null
+  status: newest
+  summary: DNS server software
+  licenses:
+    - Apache Software License 2.0
