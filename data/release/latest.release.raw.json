@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 23066544,
       "digest": "sha256:9a09356438c6d9591cb80011a2a7a52f87fc3a113f6690e41f243f98b98faac9",
-      "download_count": 6119,
+      "download_count": 6124,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:07Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 97,
       "digest": "sha256:d8492cc5790a583264f06cefddfb9720ff6cde42901756918d1a778a694f5188",
-      "download_count": 634,
+      "download_count": 635,
       "created_at": "2026-08-19T01:29:06Z",
       "updated_at": "2026-08-19T01:29:06Z",
       "browser_download_url": "https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz.sha256"
