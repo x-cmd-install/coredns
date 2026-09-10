@@ -12,6 +12,28 @@ CoreDNS is a DNS server that chains plugins
 x install coredns
 ```
 
+## 代码规模
+
+合计: **87,734** 行代码（覆盖前 5 种语言、共 **734** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 87,568 | 6,564 | 12,460 | 722 |
+| ForgeConfig | 61 | 19 | 3 | 1 |
+| Makefile | 42 | 12 | 12 | 2 |
+| Yaml | 40 | 0 | 0 | 8 |
+| Dockerfile | 14 | 8 | 2 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **8.1 / 10**
+
+评分最低的几项:
+
+- **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/coredns/coredns>
@@ -23,6 +45,25 @@ x install coredns
 - **最新版本**: `v1.14.7` (2026-08-19)
 - **最近提交**: 2026-09-10
 - **Release 含资产**: 26 个
+
+## 流行度
+
+- **Star**: 14,304 · **Fork**: 2,523 · **开放 issue**: 2,533 · **贡献者**: 478
+
+## 累计统计
+
+- **发布数**: 85 · **已合并 PR**: 4584 · **开放 PR**: 84 · **已关闭 issue**: 2320 · **开放 issue**: 213 · **提交数**: 5086
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 74 | 27 | 2 | 3 | 76 |
+| last60d | 2026-07-12 | 1 | 176 | 41 | 4 | 8 | 180 |
+| 90d | 2026-06-12 | 3 | 262 | 44 | 15 | 10 | 264 |
+| last180d | 2026-03-14 | 5 | 447 | 51 | 35 | 15 | 436 |
+| 360d | 2025-09-15 | 11 | 718 | 56 | 66 | 34 | 721 |
+| last720d | 2024-09-20 | 17 | 1091 | 67 | 122 | 95 | 1116 |
 
 ## Release 资产
 
@@ -55,43 +96,17 @@ x install coredns
 | [coredns_1.14.7_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip) | 22.3 MiB | `native/win/x64` |
 | [coredns_1.14.7_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 14,304 · **Fork**: 2,523 · **开放 issue**: 2,533 · **贡献者**: 478
+在 [repology.org](https://repology.org/project/coredns) 上共有 **62** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**39** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 85 · **已合并 PR**: 4584 · **开放 PR**: 83 · **已关闭 issue**: 2320 · **开放 issue**: 213 · **提交数**: 5086
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 74 | 26 | 2 | 3 | 76 |
-| 90d | 2026-06-12 | 3 | 262 | 43 | 15 | 10 | 264 |
-| 360d | 2025-09-15 | 11 | 718 | 55 | 66 | 34 | 721 |
-
-## 代码规模
-
-合计: **87,734** 行代码（覆盖前 5 种语言、共 **734** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 87,568 | 6,564 | 12,460 | 722 |
-| ForgeConfig | 61 | 19 | 3 | 1 |
-| Makefile | 42 | 12 | 12 | 2 |
-| Yaml | 40 | 0 | 0 | 8 |
-| Dockerfile | 14 | 8 | 2 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **8.1 / 10**
-
-评分最低的几项:
-
-- **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `1.14.7` | ✅ latest |
+| Nix unstable | `1.14.6` | ⚠️ outdated |
+| Void | `1.10.1` | ⚠️ outdated |
+| Alpine edge | `1.13.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.14.7` | ✅ latest |
 
 ## 改进这些数据
 
@@ -102,4 +117,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:28:38Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:37:09Z._

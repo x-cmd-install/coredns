@@ -12,6 +12,28 @@ CoreDNS is a DNS server that chains plugins
 x install coredns
 ```
 
+## Code insight
+
+Total: **87,734** lines of code across **734** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 87,568 | 6,564 | 12,460 | 722 |
+| ForgeConfig | 61 | 19 | 3 | 1 |
+| Makefile | 42 | 12 | 12 | 2 |
+| Yaml | 40 | 0 | 0 | 8 |
+| Dockerfile | 14 | 8 | 2 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **8.1 / 10**
+
+Lowest-scoring checks:
+
+- **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+
 ## Source
 
 - **Upstream**: <https://github.com/coredns/coredns>
@@ -23,6 +45,25 @@ x install coredns
 - **Latest**: `v1.14.7` (2026-08-19)
 - **Last commit**: 2026-09-10
 - **Assets in release**: 26
+
+## Popularity
+
+- **Stars**: 14,304 · **Forks**: 2,523 · **Open issues**: 2,533 · **Contributors**: 478
+
+## Totals (cumulative)
+
+- **Releases**: 85 · **Merged PRs**: 4584 · **Open PRs**: 84 · **Closed issues**: 2320 · **Open issues**: 213 · **Commits**: 5086
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 74 | 27 | 2 | 3 | 76 |
+| last60d | 2026-07-12 | 1 | 176 | 41 | 4 | 8 | 180 |
+| 90d | 2026-06-12 | 3 | 262 | 44 | 15 | 10 | 264 |
+| last180d | 2026-03-14 | 5 | 447 | 51 | 35 | 15 | 436 |
+| 360d | 2025-09-15 | 11 | 718 | 56 | 66 | 34 | 721 |
+| last720d | 2024-09-20 | 17 | 1091 | 67 | 122 | 95 | 1116 |
 
 ## Release assets
 
@@ -55,43 +96,17 @@ x install coredns
 | [coredns_1.14.7_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip) | 22.3 MiB | `native/win/x64` |
 | [coredns_1.14.7_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 14,304 · **Forks**: 2,523 · **Open issues**: 2,533 · **Contributors**: 478
+Reported by **62** distros on [repology.org](https://repology.org/project/coredns). **7** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 85 · **Merged PRs**: 4584 · **Open PRs**: 83 · **Closed issues**: 2320 · **Open issues**: 213 · **Commits**: 5086
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 74 | 26 | 2 | 3 | 76 |
-| 90d | 2026-06-12 | 3 | 262 | 43 | 15 | 10 | 264 |
-| 360d | 2025-09-15 | 11 | 718 | 55 | 66 | 34 | 721 |
-
-## Code size
-
-Total: **87,734** lines of code across **734** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 87,568 | 6,564 | 12,460 | 722 |
-| ForgeConfig | 61 | 19 | 3 | 1 |
-| Makefile | 42 | 12 | 12 | 2 |
-| Yaml | 40 | 0 | 0 | 8 |
-| Dockerfile | 14 | 8 | 2 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **8.1 / 10**
-
-Lowest-scoring checks:
-
-- **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+| Distro | Version | Status |
+|--------|---------|--------|
+| Homebrew | `1.14.7` | ✅ latest |
+| Nix unstable | `1.14.6` | ⚠️ outdated |
+| Void | `1.10.1` | ⚠️ outdated |
+| Alpine edge | `1.13.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.14.7` | ✅ latest |
 
 ## Improve this data
 
@@ -102,4 +117,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:28:36Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:37:09Z._
