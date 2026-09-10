@@ -23,23 +23,53 @@ x install coredns
 - **Latest**: `v1.14.7` (2026-08-19)
 - **Last commit**: 2026-09-10
 - **Assets in release**: 26
-- **Published**: 2026-08-19T01:39:14Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [coredns_1.14.7_darwin_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz) | 22.4 MiB | `native/darwin/x64` |
+| [coredns_1.14.7_darwin_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz.sha256) | 98 B | `native/darwin/x64` |
+| [coredns_1.14.7_darwin_arm64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz) | 20.4 MiB | `native/darwin/arm64` |
+| [coredns_1.14.7_darwin_arm64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz.sha256) | 98 B | `native/darwin/arm64` |
+| [coredns_1.14.7_linux_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz) | 22.0 MiB | `native/linux/x64` |
+| [coredns_1.14.7_linux_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz.sha256) | 97 B | `native/linux/x64` |
+| [coredns_1.14.7_linux_arm.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm.tgz) | 20.4 MiB | `native/linux/arm` |
+| [coredns_1.14.7_linux_arm.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm.tgz.sha256) | 95 B | `native/linux/arm` |
+| [coredns_1.14.7_linux_arm64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz) | 19.4 MiB | `native/linux/arm64` |
+| [coredns_1.14.7_linux_arm64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz.sha256) | 97 B | `native/linux/arm64` |
+| [coredns_1.14.7_linux_loong64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_loong64.tgz) | 20.5 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_loong64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_loong64.tgz.sha256) | 99 B | `other` |
+| [coredns_1.14.7_linux_mips.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips.tgz) | 19.0 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_mips.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips.tgz.sha256) | 96 B | `other` |
+| [coredns_1.14.7_linux_mips64le.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz) | 17.9 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_mips64le.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz.sha256) | 100 B | `other` |
+| [coredns_1.14.7_linux_ppc64le.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_ppc64le.tgz) | 19.4 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_ppc64le.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_ppc64le.tgz.sha256) | 99 B | `other` |
+| [coredns_1.14.7_linux_riscv64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_riscv64.tgz) | 20.5 MiB | `native/linux/riscv64` |
+| [coredns_1.14.7_linux_riscv64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_riscv64.tgz.sha256) | 99 B | `native/linux/riscv64` |
+| [coredns_1.14.7_linux_s390x.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz) | 21.5 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_s390x.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz.sha256) | 97 B | `other` |
+| [coredns_1.14.7_windows_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz) | 22.3 MiB | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz.sha256) | 99 B | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip) | 22.3 MiB | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
 ## Popularity
 
-- **Stars**: 14,303 · **Forks**: 2,522 · **Open issues**: 2,533 · **Contributors**: 478
+- **Stars**: 14,304 · **Forks**: 2,523 · **Open issues**: 2,533 · **Contributors**: 478
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4584 · **Open PRs**: 82 · **Closed issues**: 2320 · **Open issues**: 213 · **Commits**: 5086
+- **Releases**: 85 · **Merged PRs**: 4584 · **Open PRs**: 83 · **Closed issues**: 2320 · **Open issues**: 213 · **Commits**: 5086
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 74 | 25 | 2 | 3 | 76 |
-| 90d | 2026-06-12 | 3 | 262 | 42 | 15 | 10 | 264 |
-| 360d | 2025-09-15 | 11 | 718 | 54 | 66 | 34 | 721 |
+| 30d | 2026-08-11 | 1 | 74 | 26 | 2 | 3 | 76 |
+| 90d | 2026-06-12 | 3 | 262 | 43 | 15 | 10 | 264 |
+| 360d | 2025-09-15 | 11 | 718 | 55 | 66 | 34 | 721 |
 
 ## Code size
 
@@ -68,8 +98,8 @@ Lowest-scoring checks:
 Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `coredns` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/coredns.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/coredns.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:54:52Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:28:36Z._

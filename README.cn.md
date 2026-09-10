@@ -4,7 +4,7 @@
 
 CoreDNS is a DNS server that chains plugins
 
-![coredns](https://repo.x-cmd.io/coredns.svg)
+![coredns](https://repo.x-cmd.io/coredns.svg?lang=zh)
 
 ## 安装
 
@@ -23,23 +23,53 @@ x install coredns
 - **最新版本**: `v1.14.7` (2026-08-19)
 - **最近提交**: 2026-09-10
 - **Release 含资产**: 26 个
-- **发布时间**: 2026-08-19T01:39:14Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [coredns_1.14.7_darwin_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz) | 22.4 MiB | `native/darwin/x64` |
+| [coredns_1.14.7_darwin_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_amd64.tgz.sha256) | 98 B | `native/darwin/x64` |
+| [coredns_1.14.7_darwin_arm64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz) | 20.4 MiB | `native/darwin/arm64` |
+| [coredns_1.14.7_darwin_arm64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_darwin_arm64.tgz.sha256) | 98 B | `native/darwin/arm64` |
+| [coredns_1.14.7_linux_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz) | 22.0 MiB | `native/linux/x64` |
+| [coredns_1.14.7_linux_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_amd64.tgz.sha256) | 97 B | `native/linux/x64` |
+| [coredns_1.14.7_linux_arm.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm.tgz) | 20.4 MiB | `native/linux/arm` |
+| [coredns_1.14.7_linux_arm.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm.tgz.sha256) | 95 B | `native/linux/arm` |
+| [coredns_1.14.7_linux_arm64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz) | 19.4 MiB | `native/linux/arm64` |
+| [coredns_1.14.7_linux_arm64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_arm64.tgz.sha256) | 97 B | `native/linux/arm64` |
+| [coredns_1.14.7_linux_loong64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_loong64.tgz) | 20.5 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_loong64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_loong64.tgz.sha256) | 99 B | `other` |
+| [coredns_1.14.7_linux_mips.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips.tgz) | 19.0 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_mips.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips.tgz.sha256) | 96 B | `other` |
+| [coredns_1.14.7_linux_mips64le.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz) | 17.9 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_mips64le.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_mips64le.tgz.sha256) | 100 B | `other` |
+| [coredns_1.14.7_linux_ppc64le.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_ppc64le.tgz) | 19.4 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_ppc64le.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_ppc64le.tgz.sha256) | 99 B | `other` |
+| [coredns_1.14.7_linux_riscv64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_riscv64.tgz) | 20.5 MiB | `native/linux/riscv64` |
+| [coredns_1.14.7_linux_riscv64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_riscv64.tgz.sha256) | 99 B | `native/linux/riscv64` |
+| [coredns_1.14.7_linux_s390x.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz) | 21.5 MiB | `native/unknown` |
+| [coredns_1.14.7_linux_s390x.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_linux_s390x.tgz.sha256) | 97 B | `other` |
+| [coredns_1.14.7_windows_amd64.tgz](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz) | 22.3 MiB | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.tgz.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.tgz.sha256) | 99 B | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip) | 22.3 MiB | `native/win/x64` |
+| [coredns_1.14.7_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 14,303 · **Fork**: 2,522 · **开放 issue**: 2,533 · **贡献者**: 478
+- **Star**: 14,304 · **Fork**: 2,523 · **开放 issue**: 2,533 · **贡献者**: 478
 
 ## 累计统计
 
-- **发布数**: 85 · **已合并 PR**: 4584 · **开放 PR**: 82 · **已关闭 issue**: 2320 · **开放 issue**: 213 · **提交数**: 5086
+- **发布数**: 85 · **已合并 PR**: 4584 · **开放 PR**: 83 · **已关闭 issue**: 2320 · **开放 issue**: 213 · **提交数**: 5086
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 74 | 25 | 2 | 3 | 76 |
-| 90d | 2026-06-12 | 3 | 262 | 42 | 15 | 10 | 264 |
-| 360d | 2025-09-15 | 11 | 718 | 54 | 66 | 34 | 721 |
+| 30d | 2026-08-11 | 1 | 74 | 26 | 2 | 3 | 76 |
+| 90d | 2026-06-12 | 3 | 262 | 43 | 15 | 10 | 264 |
+| 360d | 2025-09-15 | 11 | 718 | 55 | 66 | 34 | 721 |
 
 ## 代码规模
 
@@ -72,4 +102,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:54:52Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:28:38Z._
