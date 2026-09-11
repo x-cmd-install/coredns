@@ -14,11 +14,11 @@ x install coredns
 
 ## Code insight
 
-Total: **87,734** lines of code across **734** files in the top 5 languages.
+Total: **89,007** lines of code across **742** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 87,568 | 6,564 | 12,460 | 722 |
+| Go | 88,841 | 6,652 | 12,535 | 730 |
 | ForgeConfig | 61 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-11
 - **Assets in release**: 26
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4584 · **Open PRs**: 84 · **Closed issues**: 2320 · **Open issues**: 213 · **Commits**: 5086
+- **Releases**: 85 · **Merged PRs**: 4592 · **Open PRs**: 79 · **Closed issues**: 2322 · **Open issues**: 211 · **Commits**: 5094
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 74 | 27 | 2 | 3 | 76 |
-| last60d | 2026-07-12 | 1 | 176 | 41 | 4 | 8 | 180 |
-| 90d | 2026-06-12 | 3 | 262 | 44 | 15 | 10 | 264 |
-| last180d | 2026-03-14 | 5 | 447 | 51 | 35 | 15 | 436 |
-| 360d | 2025-09-15 | 11 | 718 | 56 | 66 | 34 | 721 |
-| last720d | 2024-09-20 | 17 | 1091 | 67 | 122 | 95 | 1116 |
+| 30d | 2026-08-12 | 1 | 75 | 20 | 2 | 3 | 84 |
+| last60d | 2026-07-13 | 1 | 180 | 35 | 5 | 7 | 188 |
+| 90d | 2026-06-13 | 3 | 270 | 39 | 16 | 9 | 272 |
+| last180d | 2026-03-15 | 5 | 451 | 46 | 36 | 14 | 444 |
+| 360d | 2025-09-16 | 11 | 726 | 51 | 67 | 32 | 729 |
+| last720d | 2024-09-21 | 17 | 1099 | 62 | 123 | 94 | 1124 |
 
 ## Release assets
 
@@ -117,4 +117,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:14:08Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:49:25Z._
