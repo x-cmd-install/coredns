@@ -1,15 +1,3 @@
-- repo: aur
-  srcname: coredns-bin
-  binname: coredns-bin
-  visiblename: coredns-bin
-  version: 1.14.7
-  origversion: 1.14.7-1
-  status: newest
-  summary: A DNS server that chains plugins
-  maintainers:
-    - dominiquini@aur
-  licenses:
-    - Apache-2.0
 - repo: alpine_3_17
   subrepo: community
   srcname: coredns
@@ -112,18 +100,6 @@
   summary: fast and flexible DNS server (OpenRC init scripts)
   maintainers:
     - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: aur
-  srcname: coredns-git
-  binname: coredns-git
-  visiblename: coredns-git
-  version: 1.12.0.r3.g177253340
-  origversion: 1.12.0.r3.g177253340-1
-  status: rolling
-  summary: A DNS server that chains plugins
-  maintainers:
-    - chocobo1@aur
   licenses:
     - Apache-2.0
 - repo: alpine_3_21
@@ -269,6 +245,30 @@
     - hexchain@aur
   licenses:
     - Apache
+- repo: aur
+  srcname: coredns-bin
+  binname: coredns-bin
+  visiblename: coredns-bin
+  version: 1.14.7
+  origversion: 1.14.7-1
+  status: newest
+  summary: A DNS server that chains plugins
+  maintainers:
+    - dominiquini@aur
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: coredns-git
+  binname: coredns-git
+  visiblename: coredns-git
+  version: 1.12.0.r3.g177253340
+  origversion: 1.12.0.r3.g177253340-1
+  status: rolling
+  summary: A DNS server that chains plugins
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - Apache-2.0
 - repo: freebsd
   srcname: dns/coredns
   binname: coredns
