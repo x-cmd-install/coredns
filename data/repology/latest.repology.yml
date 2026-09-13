@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
 - repo: alpine_3_17
   subrepo: community
   srcname: coredns
@@ -141,6 +148,20 @@
     - fossdd@pwned.life
   licenses:
     - Apache-2.0
+- repo: openeuler_22_03_lts_sp3
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.2.oe2203sp3
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: alpine_3_22
   subrepo: community
   srcname: coredns
@@ -281,6 +302,20 @@
     - yuri@freebsd.org
   categories:
     - dns
+- repo: openeuler_22_03_lts_sp4
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.2.oe2203sp4
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: gentoo
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -388,13 +423,6 @@
   origversion: null
   status: newest
   summary: DNS server that chains plugins
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: DNS server that chains plugins
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -455,6 +483,15 @@
     - BSD-2
   categories:
     - net-dns
+- repo: wikidata
+  srcname: Q40025707
+  visiblename: CoreDNS
+  version: 1.14.7
+  origversion: null
+  status: newest
+  summary: DNS server software
+  licenses:
+    - Apache Software License 2.0
 - repo: liguros_develop
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -639,34 +676,6 @@
   visiblename: coredns
   version: 1.7.0
   origversion: 1.7.0-1.1.oe2203sp1
-  status: outdated
-  summary: CoreDNS is a DNS server/forwarder, written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: openeuler_22_03_lts_sp3
-  srcname: coredns
-  binnames:
-    - coredns
-    - coredns-help
-  visiblename: coredns
-  version: 1.7.0
-  origversion: 1.7.0-1.2.oe2203sp3
-  status: outdated
-  summary: CoreDNS is a DNS server/forwarder, written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: openeuler_22_03_lts_sp4
-  srcname: coredns
-  binnames:
-    - coredns
-    - coredns-help
-  visiblename: coredns
-  version: 1.7.0
-  origversion: 1.7.0-1.2.oe2203sp4
   status: outdated
   summary: CoreDNS is a DNS server/forwarder, written in Go
   licenses:
@@ -863,12 +872,3 @@
     - ncower@nil.dev
   licenses:
     - Apache-2.0
-- repo: wikidata
-  srcname: Q40025707
-  visiblename: CoreDNS
-  version: 1.14.7
-  origversion: null
-  status: newest
-  summary: DNS server software
-  licenses:
-    - Apache Software License 2.0
