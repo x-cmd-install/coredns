@@ -14,11 +14,11 @@ x install coredns
 
 ## Code insight
 
-Total: **89,007** lines of code across **742** files in the top 5 languages.
+Total: **89,008** lines of code across **742** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 88,841 | 6,652 | 12,535 | 730 |
+| Go | 88,842 | 6,652 | 12,535 | 730 |
 | ForgeConfig | 61 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-09-11
+- **Last commit**: 2026-09-12
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,305 · **Forks**: 2,524 · **Open issues**: 2,533 · **Contributors**: 478
+- **Stars**: 14,306 · **Forks**: 2,523 · **Open issues**: 2,533 · **Contributors**: 478
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4595 · **Open PRs**: 77 · **Closed issues**: 2326 · **Open issues**: 207 · **Commits**: 5097
+- **Releases**: 85 · **Merged PRs**: 4596 · **Open PRs**: 76 · **Closed issues**: 2326 · **Open issues**: 207 · **Commits**: 5098
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 1 | 76 | 17 | 2 | 3 | 0 |
-| last60d | 2026-07-14 | 1 | 182 | 33 | 5 | 7 | 0 |
-| 90d | 2026-06-14 | 3 | 272 | 37 | 16 | 9 | 0 |
-| last180d | 2026-03-16 | 5 | 444 | 44 | 36 | 14 | 0 |
-| 360d | 2025-09-17 | 11 | 728 | 49 | 66 | 32 | 0 |
-| last720d | 2024-09-22 | 17 | 1102 | 60 | 124 | 93 | 1127 |
+| 30d | 2026-08-14 | 1 | 72 | 16 | 2 | 2 | 88 |
+| last60d | 2026-07-15 | 1 | 163 | 32 | 5 | 7 | 192 |
+| 90d | 2026-06-15 | 3 | 273 | 36 | 16 | 9 | 276 |
+| last180d | 2026-03-17 | 5 | 444 | 43 | 36 | 14 | 448 |
+| 360d | 2025-09-18 | 11 | 728 | 48 | 66 | 32 | 733 |
+| last720d | 2024-09-23 | 17 | 1098 | 59 | 124 | 93 | 1128 |
 
 ## Release assets
 
@@ -101,7 +101,7 @@ Reported by **62** distros on [repology.org](https://repology.org/project/coredn
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `1.14.7` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Nix unstable | `1.14.6` | ⚠️ outdated |
 | Void | `1.10.1` | ⚠️ outdated |
 | Alpine edge | `1.13.2` | ⚠️ outdated |
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T04:40:43Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T04:59:56Z._
