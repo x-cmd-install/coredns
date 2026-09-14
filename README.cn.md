@@ -14,11 +14,11 @@ x install coredns
 
 ## 代码洞察
 
-合计: **89,008** 行代码（覆盖前 5 种语言、共 **742** 个文件）。
+合计: **89,069** 行代码（覆盖前 5 种语言、共 **742** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 88,842 | 6,652 | 12,535 | 730 |
+| Go | 88,903 | 6,651 | 12,542 | 730 |
 | ForgeConfig | 61 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -42,27 +42,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.14.7` (2026-08-19)
-- **最近提交**: 2026-09-12
+- **最近提交**: 2026-09-14
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,306 · **Fork**: 2,523 · **开放 issue**: 2,533 · **贡献者**: 478
+- **Star**: 14,311 · **Fork**: 2,526 · **开放 issue**: 2,534 · **贡献者**: 478
 
 ## 累计统计
 
-- **发布数**: 85 · **已合并 PR**: 4596 · **开放 PR**: 76 · **已关闭 issue**: 2326 · **开放 issue**: 207 · **提交数**: 5098
+- **发布数**: 85 · **已合并 PR**: 4598 · **开放 PR**: 77 · **已关闭 issue**: 2326 · **开放 issue**: 208 · **提交数**: 5100
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 72 | 16 | 2 | 2 | 88 |
-| last60d | 2026-07-15 | 1 | 163 | 32 | 5 | 7 | 192 |
-| 90d | 2026-06-15 | 3 | 273 | 36 | 16 | 9 | 276 |
-| last180d | 2026-03-17 | 5 | 444 | 43 | 36 | 14 | 448 |
-| 360d | 2025-09-18 | 11 | 728 | 48 | 66 | 32 | 733 |
-| last720d | 2024-09-23 | 17 | 1098 | 59 | 124 | 93 | 1128 |
+| 30d | 2026-08-15 | 1 | 74 | 17 | 2 | 3 | 62 |
+| last60d | 2026-07-16 | 1 | 165 | 33 | 5 | 8 | 165 |
+| 90d | 2026-06-16 | 3 | 275 | 37 | 16 | 10 | 269 |
+| last180d | 2026-03-18 | 5 | 444 | 44 | 35 | 15 | 444 |
+| 360d | 2025-09-19 | 11 | 728 | 49 | 65 | 32 | 727 |
+| last720d | 2024-09-24 | 17 | 1100 | 60 | 124 | 94 | 1121 |
 
 ## Release 资产
 
@@ -95,18 +95,6 @@ x install coredns
 | [coredns_1.14.7_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip) | 22.3 MiB | `native/win/x64` |
 | [coredns_1.14.7_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.14.7/coredns_1.14.7_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/coredns) 上共有 **62** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**39** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Homebrew | `HEAD` | 🔄 rolling |
-| Nix unstable | `1.14.6` | ⚠️ outdated |
-| Void | `1.10.1` | ⚠️ outdated |
-| Alpine edge | `1.13.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.14.7` | ✅ latest |
-
 ## 改进这些数据
 
 coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `coredns` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -116,4 +104,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T04:59:56Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:06:45Z._
