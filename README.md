@@ -14,11 +14,11 @@ x install coredns
 
 ## Code insight
 
-Total: **89,069** lines of code across **742** files in the top 5 languages.
+Total: **89,119** lines of code across **742** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 88,903 | 6,651 | 12,542 | 730 |
+| Go | 88,953 | 6,669 | 12,550 | 730 |
 | ForgeConfig | 61 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-15
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,311 · **Forks**: 2,526 · **Open issues**: 2,534 · **Contributors**: 478
+- **Stars**: 14,314 · **Forks**: 2,526 · **Open issues**: 2,534 · **Contributors**: 478
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4598 · **Open PRs**: 77 · **Closed issues**: 2326 · **Open issues**: 208 · **Commits**: 5100
+- **Releases**: 85 · **Merged PRs**: 4599 · **Open PRs**: 77 · **Closed issues**: 2328 · **Open issues**: 206 · **Commits**: 5101
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 74 | 17 | 2 | 3 | 62 |
-| last60d | 2026-07-16 | 1 | 165 | 33 | 5 | 8 | 165 |
-| 90d | 2026-06-16 | 3 | 275 | 37 | 16 | 10 | 269 |
-| last180d | 2026-03-18 | 5 | 444 | 44 | 35 | 15 | 444 |
-| 360d | 2025-09-19 | 11 | 728 | 49 | 65 | 32 | 727 |
-| last720d | 2024-09-24 | 17 | 1100 | 60 | 124 | 94 | 1121 |
+| 30d | 2026-08-16 | 1 | 75 | 17 | 2 | 3 | 63 |
+| last60d | 2026-07-17 | 1 | 165 | 33 | 5 | 8 | 166 |
+| 90d | 2026-06-17 | 3 | 267 | 37 | 16 | 10 | 270 |
+| last180d | 2026-03-19 | 5 | 444 | 44 | 35 | 15 | 445 |
+| 360d | 2025-09-20 | 11 | 729 | 49 | 65 | 32 | 728 |
+| last720d | 2024-09-25 | 17 | 1101 | 60 | 124 | 94 | 1120 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:06:44Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:19:56Z._
