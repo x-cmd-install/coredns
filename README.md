@@ -4,7 +4,7 @@
 
 CoreDNS is a DNS server that chains plugins
 
-[![x-cmd/install — coredns Code Quality Monitoring Repo Card](https://repo.x-cmd.io/coredns.svg)](https://x-cmd.com/install/coredns)
+[![x-cmd/install — coredns Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/coredns.svg)](https://x-cmd.com/install/coredns)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install coredns
 
 ## Code insight
 
-Total: **91,243** lines of code across **750** files in the top 5 languages.
+Total: **95,215** lines of code across **764** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 91,077 | 6,799 | 12,713 | 738 |
-| ForgeConfig | 61 | 19 | 3 | 1 |
+| Go | 95,048 | 6,914 | 13,020 | 752 |
+| ForgeConfig | 62 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
 | Dockerfile | 14 | 8 | 2 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-23
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,335 · **Forks**: 2,531 · **Open issues**: 2,535 · **Contributors**: 479
+- **Stars**: 14,339 · **Forks**: 2,531 · **Open issues**: 2,535 · **Contributors**: 479
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4614 · **Open PRs**: 77 · **Closed issues**: 2336 · **Open issues**: 199 · **Commits**: 5116
+- **Releases**: 85 · **Merged PRs**: 4618 · **Open PRs**: 73 · **Closed issues**: 2336 · **Open issues**: 199 · **Commits**: 5120
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 71 | 16 | 3 | 3 | 61 |
-| last60d | 2026-07-24 | 1 | 157 | 32 | 6 | 8 | 163 |
-| 90d | 2026-06-24 | 3 | 270 | 36 | 16 | 9 | 274 |
-| last180d | 2026-03-26 | 5 | 436 | 44 | 34 | 15 | 427 |
-| 360d | 2025-09-27 | 11 | 738 | 49 | 68 | 29 | 728 |
-| last720d | 2024-10-02 | 17 | 1109 | 60 | 125 | 89 | 1124 |
+| 30d | 2026-08-24 | 0 | 72 | 12 | 2 | 3 | 65 |
+| last60d | 2026-07-25 | 1 | 160 | 27 | 6 | 8 | 167 |
+| 90d | 2026-06-25 | 3 | 273 | 32 | 16 | 9 | 278 |
+| last180d | 2026-03-27 | 5 | 440 | 40 | 34 | 15 | 431 |
+| 360d | 2025-09-28 | 11 | 742 | 45 | 68 | 29 | 732 |
+| last720d | 2024-10-03 | 17 | 1113 | 56 | 124 | 89 | 1128 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:17:28Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:11:57Z._
