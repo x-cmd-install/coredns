@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-10-04
+- **Last commit**: 2026-10-05
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,358 · **Forks**: 2,537 · **Open issues**: 2,537 · **Contributors**: 483
+- **Stars**: 14,357 · **Forks**: 2,537 · **Open issues**: 2,537 · **Contributors**: 483
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4639 · **Open PRs**: 77 · **Closed issues**: 2340 · **Open issues**: 197 · **Commits**: 5141
+- **Releases**: 85 · **Merged PRs**: 4640 · **Open PRs**: 75 · **Closed issues**: 2340 · **Open issues**: 197 · **Commits**: 5142
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 53 | 16 | 1 | 3 | 48 |
-| last60d | 2026-08-05 | 1 | 133 | 26 | 5 | 6 | 135 |
-| 90d | 2026-07-06 | 3 | 268 | 37 | 13 | 10 | 241 |
-| last180d | 2026-04-07 | 5 | 427 | 44 | 29 | 16 | 412 |
-| 360d | 2025-10-09 | 9 | 742 | 49 | 68 | 28 | 732 |
-| last720d | 2024-10-14 | 17 | 1127 | 57 | 124 | 86 | 1147 |
+| 30d | 2026-09-05 | 0 | 54 | 14 | 1 | 3 | 49 |
+| last60d | 2026-08-06 | 1 | 133 | 23 | 5 | 6 | 136 |
+| 90d | 2026-07-07 | 3 | 267 | 35 | 11 | 10 | 242 |
+| last180d | 2026-04-08 | 5 | 414 | 42 | 27 | 15 | 413 |
+| 360d | 2025-10-10 | 9 | 742 | 47 | 68 | 28 | 733 |
+| last720d | 2024-10-15 | 17 | 1128 | 55 | 124 | 86 | 1148 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:54:58Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:41:09Z._
