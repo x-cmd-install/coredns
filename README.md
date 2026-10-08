@@ -30,8 +30,8 @@ Overall score: **8.4 / 10**
 
 Lowest-scoring checks:
 
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-07
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,361 · **Forks**: 2,539 · **Open issues**: 2,537 · **Contributors**: 483
+- **Stars**: 14,361 · **Forks**: 2,539 · **Open issues**: 2,538 · **Contributors**: 483
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4640 · **Open PRs**: 76 · **Closed issues**: 2340 · **Open issues**: 197 · **Commits**: 5142
+- **Releases**: 85 · **Merged PRs**: 4646 · **Open PRs**: 78 · **Closed issues**: 2340 · **Open issues**: 198 · **Commits**: 5148
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 54 | 15 | 1 | 3 | 49 |
-| last60d | 2026-08-08 | 1 | 133 | 24 | 5 | 6 | 136 |
-| 90d | 2026-07-09 | 3 | 245 | 36 | 7 | 10 | 242 |
-| last180d | 2026-04-10 | 5 | 412 | 42 | 24 | 15 | 413 |
-| 360d | 2025-10-12 | 9 | 742 | 48 | 68 | 28 | 733 |
-| last720d | 2024-10-17 | 17 | 1128 | 56 | 123 | 86 | 1148 |
+| 30d | 2026-09-08 | 0 | 56 | 17 | 1 | 4 | 55 |
+| last60d | 2026-08-09 | 1 | 138 | 24 | 5 | 7 | 142 |
+| 90d | 2026-07-10 | 3 | 242 | 37 | 7 | 10 | 248 |
+| last180d | 2026-04-11 | 5 | 415 | 44 | 24 | 16 | 419 |
+| 360d | 2025-10-13 | 9 | 740 | 50 | 66 | 29 | 739 |
+| last720d | 2024-10-18 | 17 | 1134 | 58 | 123 | 87 | 1154 |
 
 ## Release assets
 
@@ -104,4 +104,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:57:54Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T06:13:49Z._

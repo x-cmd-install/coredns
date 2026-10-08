@@ -30,8 +30,8 @@ x install coredns
 
 评分最低的几项:
 
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -42,27 +42,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.14.7` (2026-08-19)
-- **最近提交**: 2026-10-05
+- **最近提交**: 2026-10-07
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,361 · **Fork**: 2,539 · **开放 issue**: 2,537 · **贡献者**: 483
+- **Star**: 14,361 · **Fork**: 2,539 · **开放 issue**: 2,538 · **贡献者**: 483
 
 ## 累计统计
 
-- **发布数**: 85 · **已合并 PR**: 4640 · **开放 PR**: 76 · **已关闭 issue**: 2340 · **开放 issue**: 197 · **提交数**: 5142
+- **发布数**: 85 · **已合并 PR**: 4646 · **开放 PR**: 78 · **已关闭 issue**: 2340 · **开放 issue**: 198 · **提交数**: 5148
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 54 | 15 | 1 | 3 | 49 |
-| last60d | 2026-08-08 | 1 | 133 | 24 | 5 | 6 | 136 |
-| 90d | 2026-07-09 | 3 | 245 | 36 | 7 | 10 | 242 |
-| last180d | 2026-04-10 | 5 | 412 | 42 | 24 | 15 | 413 |
-| 360d | 2025-10-12 | 9 | 742 | 48 | 68 | 28 | 733 |
-| last720d | 2024-10-17 | 17 | 1128 | 56 | 123 | 86 | 1148 |
+| 30d | 2026-09-08 | 0 | 56 | 17 | 1 | 4 | 55 |
+| last60d | 2026-08-09 | 1 | 138 | 24 | 5 | 7 | 142 |
+| 90d | 2026-07-10 | 3 | 242 | 37 | 7 | 10 | 248 |
+| last180d | 2026-04-11 | 5 | 415 | 44 | 24 | 16 | 419 |
+| 360d | 2025-10-13 | 9 | 740 | 50 | 66 | 29 | 739 |
+| last720d | 2024-10-18 | 17 | 1134 | 58 | 123 | 87 | 1154 |
 
 ## Release 资产
 
@@ -104,4 +104,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261007.yml` · 2026-10-07T05:57:54Z._
+_数据快照: `data/card/261008.yml` · 2026-10-08T06:13:50Z._
