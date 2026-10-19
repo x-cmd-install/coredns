@@ -30,8 +30,8 @@ Overall score: **8 / 10**
 
 Lowest-scoring checks:
 
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.14.7` (2026-08-19)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-18
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,377 · **Forks**: 2,545 · **Open issues**: 2,544 · **Contributors**: 487
+- **Stars**: 14,385 · **Forks**: 2,543 · **Open issues**: 2,545 · **Contributors**: 487
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 4668 · **Open PRs**: 94 · **Closed issues**: 2350 · **Open issues**: 194 · **Commits**: 5170
+- **Releases**: 85 · **Merged PRs**: 4669 · **Open PRs**: 99 · **Closed issues**: 2350 · **Open issues**: 195 · **Commits**: 5171
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 0 | 50 | 30 | 8 | 1 | 58 |
-| last60d | 2026-08-19 | 1 | 129 | 38 | 12 | 3 | 147 |
-| 90d | 2026-07-20 | 1 | 225 | 53 | 15 | 8 | 240 |
-| last180d | 2026-04-21 | 5 | 428 | 60 | 33 | 12 | 435 |
-| 360d | 2025-10-23 | 9 | 748 | 68 | 72 | 26 | 753 |
-| last720d | 2024-10-28 | 17 | 1145 | 76 | 130 | 82 | 1159 |
+| 30d | 2026-09-19 | 0 | 50 | 35 | 8 | 2 | 47 |
+| last60d | 2026-08-20 | 0 | 127 | 43 | 12 | 4 | 130 |
+| 90d | 2026-07-21 | 1 | 227 | 58 | 15 | 9 | 219 |
+| last180d | 2026-04-22 | 5 | 419 | 65 | 33 | 13 | 424 |
+| 360d | 2025-10-24 | 9 | 749 | 73 | 72 | 27 | 744 |
+| last720d | 2024-10-29 | 17 | 1147 | 81 | 130 | 83 | 1160 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T04:30:29Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T04:44:27Z._
