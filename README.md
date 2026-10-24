@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,393 · **Forks**: 2,545 · **Open issues**: 2,547 · **Contributors**: 487
+- **Stars**: 14,396 · **Forks**: 2,545 · **Open issues**: 2,547 · **Contributors**: 487
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 4691 · **Open PRs**: 108 · **Closed issues**: 2354 · **Open issues**: 193 · **Commits**: 5193
+- **Releases**: 86 · **Merged PRs**: 4691 · **Open PRs**: 103 · **Closed issues**: 2354 · **Open issues**: 193 · **Commits**: 5193
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 65 | 44 | 8 | 3 | 68 |
-| last60d | 2026-08-24 | 1 | 143 | 53 | 12 | 5 | 151 |
-| 90d | 2026-07-25 | 2 | 232 | 66 | 16 | 10 | 240 |
-| last180d | 2026-04-26 | 5 | 440 | 74 | 34 | 14 | 445 |
-| 360d | 2025-10-28 | 10 | 764 | 83 | 72 | 28 | 765 |
-| last720d | 2024-11-02 | 18 | 1168 | 90 | 130 | 84 | 1182 |
+| 30d | 2026-09-24 | 1 | 65 | 38 | 8 | 3 | 68 |
+| last60d | 2026-08-25 | 1 | 142 | 48 | 12 | 5 | 151 |
+| 90d | 2026-07-26 | 2 | 230 | 62 | 16 | 10 | 240 |
+| last180d | 2026-04-27 | 5 | 439 | 70 | 34 | 14 | 445 |
+| 360d | 2025-10-29 | 10 | 764 | 79 | 72 | 28 | 765 |
+| last720d | 2024-11-03 | 18 | 1168 | 86 | 130 | 84 | 1182 |
 
 ## Release assets
 
@@ -97,7 +97,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **63** distros on [repology.org](https://repology.org/project/coredns). **7** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
+Reported by **61** distros on [repology.org](https://repology.org/project/coredns). **10** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T04:58:54Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T04:48:07Z._
