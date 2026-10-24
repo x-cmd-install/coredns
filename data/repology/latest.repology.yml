@@ -1,17 +1,15 @@
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: DNS server that chains plugins
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: HEAD
-  origversion: null
+- repo: aur
+  srcname: coredns-git
+  binname: coredns-git
+  visiblename: coredns-git
+  version: 1.12.0.r3.g177253340
+  origversion: 1.12.0.r3.g177253340-1
   status: rolling
-  summary: DNS server that chains plugins
+  summary: A DNS server that chains plugins
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_17
   subrepo: community
   srcname: coredns
@@ -271,18 +269,6 @@
     - dominiquini@aur
   licenses:
     - Apache-2.0
-- repo: aur
-  srcname: coredns-git
-  binname: coredns-git
-  visiblename: coredns-git
-  version: 1.12.0.r3.g177253340
-  origversion: 1.12.0.r3.g177253340-1
-  status: rolling
-  summary: A DNS server that chains plugins
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - Apache-2.0
 - repo: freebsd
   srcname: dns/coredns
   binname: coredns
@@ -299,26 +285,6 @@
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
   version: 1.14.6
-  origversion: null
-  status: outdated
-  summary: CoreDNS is a DNS server that chains plugins
-  maintainers:
-    - zmedico@gentoo.org
-    - me@rahil.rocks
-    - proxy-maint@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - BSD
-    - ISC
-    - MPL-2.0
-    - BSD-2
-  categories:
-    - net-dns
-- repo: gentoo
-  srcname: net-dns/coredns
-  visiblename: net-dns/coredns
-  version: 1.12.2
   origversion: null
   status: legacy
   summary: CoreDNS is a DNS server that chains plugins
@@ -358,9 +324,9 @@
 - repo: gentoo
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
-  version: 1.13.2
+  version: 1.15.0
   origversion: null
-  status: legacy
+  status: newest
   summary: CoreDNS is a DNS server that chains plugins
   maintainers:
     - zmedico@gentoo.org
@@ -378,7 +344,7 @@
 - repo: gentoo
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
-  version: 1.14.3
+  version: 1.13.2
   origversion: null
   status: legacy
   summary: CoreDNS is a DNS server that chains plugins
@@ -395,6 +361,20 @@
     - BSD-2
   categories:
     - net-dns
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -458,26 +438,6 @@
 - repo: liguros_develop
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
-  version: 1.14.3
-  origversion: null
-  status: legacy
-  summary: CoreDNS is a DNS server that chains plugins
-  maintainers:
-    - zmedico@gentoo.org
-    - me@rahil.rocks
-    - proxy-maint@gentoo.org
-  licenses:
-    - Apache-2.0
-    - MIT
-    - BSD
-    - ISC
-    - MPL-2.0
-    - BSD-2
-  categories:
-    - net-dns
-- repo: liguros_develop
-  srcname: net-dns/coredns
-  visiblename: net-dns/coredns
   version: 1.13.2
   origversion: null
   status: legacy
@@ -500,7 +460,7 @@
   visiblename: net-dns/coredns
   version: 1.14.6
   origversion: null
-  status: outdated
+  status: legacy
   summary: CoreDNS is a DNS server that chains plugins
   maintainers:
     - zmedico@gentoo.org
@@ -518,9 +478,9 @@
 - repo: liguros_develop
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
-  version: 1.12.2
+  version: 1.15.0
   origversion: null
-  status: legacy
+  status: newest
   summary: CoreDNS is a DNS server that chains plugins
   maintainers:
     - zmedico@gentoo.org
@@ -643,9 +603,9 @@
   srcname: net/coredns
   binname: coredns
   visiblename: net/coredns
-  version: 1.14.7
+  version: 1.15.0
   origversion: null
-  status: outdated
+  status: newest
   summary: fast and flexible DNS server/forwarder
   maintainers:
     - ajacoutot@openbsd.org
@@ -773,6 +733,18 @@
   categories:
     - Productivity/Networking/DNS/Servers
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: coredns
+  visiblename: coredns
+  version: 1.8.0
+  origversion: 1.8.0-bp156.3.16
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: coredns
   visiblename: coredns
@@ -827,18 +799,6 @@
   version: 1.14.2
   origversion: 1.14.2-bp156.4.16.1
   status: outdated
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: coredns
-  visiblename: coredns
-  version: 1.8.0
-  origversion: 1.8.0-bp156.3.16
-  status: legacy
   summary: DNS server written in Go
   licenses:
     - Apache-2.0
