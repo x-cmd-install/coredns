@@ -14,24 +14,25 @@ x install coredns
 
 ## 代码洞察
 
-合计: **99,875** 行代码（覆盖前 5 种语言、共 **787** 个文件）。
+合计: **100,156** 行代码（覆盖前 5 种语言、共 **792** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 99,708 | 7,259 | 13,439 | 775 |
+| Go | 99,989 | 7,286 | 13,471 | 780 |
 | ForgeConfig | 62 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
-| Dockerfile | 14 | 8 | 2 | 1 |
+| Dockerfile | 14 | 10 | 2 | 1 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.2 / 10**
+总评分: **8 / 10**
 
 评分最低的几项:
 
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -42,27 +43,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.15.0` (2026-10-21)
-- **最近提交**: 2026-10-28
+- **最近提交**: 2026-10-29
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,399 · **Fork**: 2,546 · **开放 issue**: 2,551 · **贡献者**: 487
+- **Star**: 14,399 · **Fork**: 2,547 · **开放 issue**: 2,552 · **贡献者**: 487
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4696 · **开放 PR**: 106 · **已关闭 issue**: 2354 · **开放 issue**: 197 · **提交数**: 5200
+- **发布数**: 86 · **已合并 PR**: 4703 · **开放 PR**: 106 · **已关闭 issue**: 2355 · **开放 issue**: 197 · **提交数**: 5207
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 1 | 67 | 41 | 8 | 7 | 59 |
-| last60d | 2026-08-29 | 1 | 129 | 51 | 11 | 9 | 138 |
-| 90d | 2026-07-30 | 2 | 212 | 62 | 16 | 14 | 220 |
-| last180d | 2026-05-01 | 5 | 437 | 73 | 32 | 18 | 445 |
-| 360d | 2025-11-02 | 10 | 768 | 82 | 71 | 32 | 763 |
-| last720d | 2024-11-07 | 18 | 1169 | 89 | 130 | 87 | 1180 |
+| 30d | 2026-09-29 | 1 | 71 | 44 | 9 | 7 | 66 |
+| last60d | 2026-08-30 | 1 | 134 | 54 | 12 | 9 | 145 |
+| 90d | 2026-07-31 | 2 | 217 | 65 | 17 | 14 | 227 |
+| last180d | 2026-05-02 | 5 | 444 | 76 | 33 | 18 | 452 |
+| 360d | 2025-11-03 | 10 | 766 | 85 | 72 | 32 | 770 |
+| last720d | 2024-11-08 | 18 | 1176 | 91 | 131 | 87 | 1187 |
 
 ## Release 资产
 
@@ -116,4 +117,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261028.yml` · 2026-10-28T05:46:13Z._
+_数据快照: `data/card/261029.yml` · 2026-10-29T05:55:12Z._
