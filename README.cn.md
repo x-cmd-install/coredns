@@ -14,11 +14,11 @@ x install coredns
 
 ## 代码洞察
 
-合计: **100,156** 行代码（覆盖前 5 种语言、共 **792** 个文件）。
+合计: **100,944** 行代码（覆盖前 5 种语言、共 **796** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 99,989 | 7,286 | 13,471 | 780 |
+| Go | 100,777 | 7,322 | 13,517 | 784 |
 | ForgeConfig | 62 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -31,8 +31,8 @@ x install coredns
 评分最低的几项:
 
 - **Vulnerabilities** (4/10) — 6 existing vulnerabilities detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.15.0` (2026-10-21)
-- **最近提交**: 2026-10-29
+- **最近提交**: 2026-10-30
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,399 · **Fork**: 2,547 · **开放 issue**: 2,552 · **贡献者**: 487
+- **Star**: 14,399 · **Fork**: 2,546 · **开放 issue**: 2,552 · **贡献者**: 489
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4703 · **开放 PR**: 106 · **已关闭 issue**: 2355 · **开放 issue**: 197 · **提交数**: 5207
+- **发布数**: 86 · **已合并 PR**: 4711 · **开放 PR**: 98 · **已关闭 issue**: 2358 · **开放 issue**: 194 · **提交数**: 5215
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 71 | 44 | 9 | 7 | 66 |
-| last60d | 2026-08-30 | 1 | 134 | 54 | 12 | 9 | 145 |
-| 90d | 2026-07-31 | 2 | 217 | 65 | 17 | 14 | 227 |
-| last180d | 2026-05-02 | 5 | 444 | 76 | 33 | 18 | 452 |
-| 360d | 2025-11-03 | 10 | 766 | 85 | 72 | 32 | 770 |
-| last720d | 2024-11-08 | 18 | 1176 | 91 | 131 | 87 | 1187 |
+| 30d | 2026-09-30 | 1 | 69 | 35 | 11 | 5 | 74 |
+| last60d | 2026-08-31 | 1 | 140 | 48 | 13 | 7 | 153 |
+| 90d | 2026-08-01 | 2 | 221 | 58 | 19 | 12 | 235 |
+| last180d | 2026-05-03 | 5 | 452 | 70 | 35 | 16 | 460 |
+| 360d | 2025-11-04 | 10 | 774 | 79 | 74 | 30 | 778 |
+| last720d | 2024-11-09 | 18 | 1184 | 85 | 133 | 85 | 1195 |
 
 ## Release 资产
 
@@ -117,4 +117,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T05:55:12Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T05:54:20Z._
