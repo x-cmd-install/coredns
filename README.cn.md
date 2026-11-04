@@ -18,7 +18,7 @@ x install coredns
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 100,777 | 7,323 | 13,518 | 784 |
+| Go | 100,777 | 7,322 | 13,517 | 784 |
 | ForgeConfig | 62 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -30,8 +30,8 @@ x install coredns
 
 评分最低的几项:
 
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install coredns
 
 ## 流行度
 
-- **Star**: 14,403 · **Fork**: 2,553 · **开放 issue**: 2,552 · **贡献者**: 492
+- **Star**: 14,408 · **Fork**: 2,553 · **开放 issue**: 2,552 · **贡献者**: 492
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4720 · **开放 PR**: 95 · **已关闭 issue**: 2390 · **开放 issue**: 162 · **提交数**: 5224
+- **发布数**: 86 · **已合并 PR**: 4721 · **开放 PR**: 95 · **已关闭 issue**: 2390 · **开放 issue**: 162 · **提交数**: 5225
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 75 | 33 | 12 | 3 | 72 |
-| last60d | 2026-09-04 | 1 | 133 | 44 | 15 | 4 | 141 |
-| 90d | 2026-08-05 | 2 | 213 | 54 | 21 | 5 | 219 |
-| last180d | 2026-05-07 | 5 | 458 | 67 | 41 | 10 | 467 |
-| 360d | 2025-11-08 | 10 | 779 | 76 | 81 | 21 | 773 |
-| last720d | 2024-11-13 | 18 | 1187 | 82 | 144 | 72 | 1203 |
+| 30d | 2026-10-05 | 1 | 76 | 33 | 12 | 3 | 73 |
+| last60d | 2026-09-05 | 1 | 134 | 44 | 15 | 4 | 142 |
+| 90d | 2026-08-06 | 2 | 213 | 53 | 21 | 5 | 220 |
+| last180d | 2026-05-08 | 5 | 459 | 67 | 41 | 10 | 468 |
+| 360d | 2025-11-09 | 10 | 780 | 76 | 81 | 20 | 774 |
+| last720d | 2024-11-14 | 17 | 1188 | 82 | 143 | 72 | 1201 |
 
 ## Release 资产
 
@@ -116,4 +116,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T06:57:02Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:25:05Z._

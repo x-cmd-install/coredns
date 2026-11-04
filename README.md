@@ -18,7 +18,7 @@ Total: **100,944** lines of code across **796** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 100,777 | 7,323 | 13,518 | 784 |
+| Go | 100,777 | 7,322 | 13,517 | 784 |
 | ForgeConfig | 62 | 19 | 3 | 1 |
 | Makefile | 42 | 12 | 12 | 2 |
 | Yaml | 40 | 0 | 0 | 8 |
@@ -30,8 +30,8 @@ Overall score: **8.1 / 10**
 
 Lowest-scoring checks:
 
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,403 · **Forks**: 2,553 · **Open issues**: 2,552 · **Contributors**: 492
+- **Stars**: 14,408 · **Forks**: 2,553 · **Open issues**: 2,552 · **Contributors**: 492
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 4720 · **Open PRs**: 95 · **Closed issues**: 2390 · **Open issues**: 162 · **Commits**: 5224
+- **Releases**: 86 · **Merged PRs**: 4721 · **Open PRs**: 95 · **Closed issues**: 2390 · **Open issues**: 162 · **Commits**: 5225
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 75 | 33 | 12 | 3 | 72 |
-| last60d | 2026-09-04 | 1 | 133 | 44 | 15 | 4 | 141 |
-| 90d | 2026-08-05 | 2 | 213 | 54 | 21 | 5 | 219 |
-| last180d | 2026-05-07 | 5 | 458 | 67 | 41 | 10 | 467 |
-| 360d | 2025-11-08 | 10 | 779 | 76 | 81 | 21 | 773 |
-| last720d | 2024-11-13 | 18 | 1187 | 82 | 144 | 72 | 1203 |
+| 30d | 2026-10-05 | 1 | 76 | 33 | 12 | 3 | 73 |
+| last60d | 2026-09-05 | 1 | 134 | 44 | 15 | 4 | 142 |
+| 90d | 2026-08-06 | 2 | 213 | 53 | 21 | 5 | 220 |
+| last180d | 2026-05-08 | 5 | 459 | 67 | 41 | 10 | 468 |
+| 360d | 2025-11-09 | 10 | 780 | 76 | 81 | 20 | 774 |
+| last720d | 2024-11-14 | 17 | 1188 | 82 | 143 | 72 | 1201 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:57:01Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:25:05Z._
