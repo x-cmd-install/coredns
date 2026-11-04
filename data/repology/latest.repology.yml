@@ -212,7 +212,7 @@
   binname: coredns
   visiblename: coredns
   version: 1.15.0
-  origversion: 1.15.0-r1
+  origversion: 1.15.0-r2
   status: newest
   summary: fast and flexible DNS server
   maintainers:
@@ -225,7 +225,7 @@
   binname: coredns-openrc
   visiblename: coredns-openrc
   version: 1.15.0
-  origversion: 1.15.0-r1
+  origversion: 1.15.0-r2
   status: newest
   summary: fast and flexible DNS server (OpenRC init scripts)
   maintainers:
@@ -301,18 +301,6 @@
     - BSD-2
   categories:
     - net-dns
-- repo: openbsd
-  srcname: net/coredns
-  binname: coredns
-  visiblename: net/coredns
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: fast and flexible DNS server/forwarder
-  maintainers:
-    - ajacoutot@openbsd.org
-  categories:
-    - net
 - repo: gentoo
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -611,6 +599,18 @@
     - rushmore@webenchanter.com
   licenses:
     - Apache-2.0
+- repo: openbsd
+  srcname: net/coredns
+  binname: coredns
+  visiblename: net/coredns
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: fast and flexible DNS server/forwarder
+  maintainers:
+    - ajacoutot@openbsd.org
+  categories:
+    - net
 - repo: openeuler_22_03_lts_sp1
   srcname: coredns
   binnames:
