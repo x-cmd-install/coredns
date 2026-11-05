@@ -26,12 +26,12 @@ Total: **100,944** lines of code across **796** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.1 / 10**
+Overall score: **8.2 / 10**
 
 Lowest-scoring checks:
 
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.15.0` (2026-10-21)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-05
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,408 · **Forks**: 2,553 · **Open issues**: 2,552 · **Contributors**: 492
+- **Stars**: 14,410 · **Forks**: 2,555 · **Open issues**: 2,553 · **Contributors**: 492
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 4721 · **Open PRs**: 95 · **Closed issues**: 2390 · **Open issues**: 162 · **Commits**: 5225
+- **Releases**: 86 · **Merged PRs**: 4730 · **Open PRs**: 98 · **Closed issues**: 2390 · **Open issues**: 163 · **Commits**: 5234
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 76 | 33 | 12 | 3 | 73 |
-| last60d | 2026-09-05 | 1 | 134 | 44 | 15 | 4 | 142 |
-| 90d | 2026-08-06 | 2 | 213 | 53 | 21 | 5 | 220 |
-| last180d | 2026-05-08 | 5 | 459 | 67 | 41 | 10 | 468 |
-| 360d | 2025-11-09 | 10 | 780 | 76 | 81 | 20 | 774 |
-| last720d | 2024-11-14 | 17 | 1188 | 82 | 143 | 72 | 1201 |
+| 30d | 2026-10-06 | 1 | 85 | 36 | 12 | 4 | 82 |
+| last60d | 2026-09-06 | 1 | 143 | 47 | 15 | 5 | 151 |
+| 90d | 2026-08-07 | 2 | 222 | 56 | 21 | 6 | 229 |
+| last180d | 2026-05-09 | 5 | 468 | 70 | 41 | 11 | 477 |
+| 360d | 2025-11-10 | 10 | 779 | 79 | 81 | 21 | 783 |
+| last720d | 2024-11-15 | 17 | 1194 | 85 | 143 | 73 | 1210 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:25:05Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:43:59Z._

@@ -26,12 +26,12 @@ x install coredns
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.1 / 10**
+总评分: **8.2 / 10**
 
 评分最低的几项:
 
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -42,27 +42,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.15.0` (2026-10-21)
-- **最近提交**: 2026-11-03
+- **最近提交**: 2026-11-05
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,408 · **Fork**: 2,553 · **开放 issue**: 2,552 · **贡献者**: 492
+- **Star**: 14,410 · **Fork**: 2,555 · **开放 issue**: 2,553 · **贡献者**: 492
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4721 · **开放 PR**: 95 · **已关闭 issue**: 2390 · **开放 issue**: 162 · **提交数**: 5225
+- **发布数**: 86 · **已合并 PR**: 4730 · **开放 PR**: 98 · **已关闭 issue**: 2390 · **开放 issue**: 163 · **提交数**: 5234
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 76 | 33 | 12 | 3 | 73 |
-| last60d | 2026-09-05 | 1 | 134 | 44 | 15 | 4 | 142 |
-| 90d | 2026-08-06 | 2 | 213 | 53 | 21 | 5 | 220 |
-| last180d | 2026-05-08 | 5 | 459 | 67 | 41 | 10 | 468 |
-| 360d | 2025-11-09 | 10 | 780 | 76 | 81 | 20 | 774 |
-| last720d | 2024-11-14 | 17 | 1188 | 82 | 143 | 72 | 1201 |
+| 30d | 2026-10-06 | 1 | 85 | 36 | 12 | 4 | 82 |
+| last60d | 2026-09-06 | 1 | 143 | 47 | 15 | 5 | 151 |
+| 90d | 2026-08-07 | 2 | 222 | 56 | 21 | 6 | 229 |
+| last180d | 2026-05-09 | 5 | 468 | 70 | 41 | 11 | 477 |
+| 360d | 2025-11-10 | 10 | 779 | 79 | 81 | 21 | 783 |
+| last720d | 2024-11-15 | 17 | 1194 | 85 | 143 | 73 | 1210 |
 
 ## Release 资产
 
@@ -116,4 +116,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T06:25:05Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T06:44:00Z._
