@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,413 · **Forks**: 2,556 · **Open issues**: 2,553 · **Contributors**: 494
+- **Stars**: 14,417 · **Forks**: 2,555 · **Open issues**: 2,553 · **Contributors**: 494
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 4732 · **Open PRs**: 99 · **Closed issues**: 2391 · **Open issues**: 162 · **Commits**: 5236
+- **Releases**: 86 · **Merged PRs**: 4732 · **Open PRs**: 101 · **Closed issues**: 2391 · **Open issues**: 162 · **Commits**: 5236
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 76 | 37 | 9 | 3 | 84 |
-| last60d | 2026-09-08 | 1 | 141 | 48 | 16 | 4 | 153 |
-| 90d | 2026-08-09 | 2 | 223 | 55 | 22 | 5 | 231 |
-| last180d | 2026-05-11 | 5 | 469 | 71 | 41 | 10 | 479 |
-| 360d | 2025-11-12 | 10 | 781 | 80 | 82 | 20 | 785 |
-| last720d | 2024-11-17 | 17 | 1196 | 86 | 142 | 72 | 1207 |
+| 30d | 2026-10-09 | 1 | 75 | 39 | 8 | 3 | 84 |
+| last60d | 2026-09-09 | 1 | 131 | 50 | 16 | 4 | 153 |
+| 90d | 2026-08-10 | 2 | 221 | 57 | 21 | 5 | 231 |
+| last180d | 2026-05-12 | 5 | 469 | 73 | 41 | 10 | 479 |
+| 360d | 2025-11-13 | 10 | 779 | 82 | 82 | 20 | 785 |
+| last720d | 2024-11-18 | 17 | 1191 | 88 | 142 | 72 | 1207 |
 
 ## Release assets
 
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:01:56Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:02:59Z._
