@@ -1,3 +1,29 @@
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.12.4
+  origversion: 1.12.4-bp156.4.9.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
 - repo: alpine_3_17
   subrepo: community
   srcname: coredns
@@ -361,34 +387,6 @@
     - BSD-2
   categories:
     - net-dns
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: DNS server that chains plugins
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: DNS server that chains plugins
-- repo: openeuler_24_09
-  srcname: coredns
-  binnames:
-    - coredns
-    - coredns-help
-  visiblename: coredns
-  version: 1.7.0
-  origversion: 1.7.0-1.3.oe2409
-  status: outdated
-  summary: CoreDNS is a DNS server/forwarder, written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -695,6 +693,20 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: openeuler_24_09
+  srcname: coredns
+  binnames:
+    - coredns
+    - coredns-help
+  visiblename: coredns
+  version: 1.7.0
+  origversion: 1.7.0-1.3.oe2409
+  status: outdated
+  summary: CoreDNS is a DNS server/forwarder, written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: openeuler_25_03
   srcname: coredns
   binnames:
@@ -751,18 +763,6 @@
   visiblename: coredns
   version: 1.12.1
   origversion: 1.12.1-bp156.4.6.5
-  status: legacy
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: coredns
-  visiblename: coredns
-  version: 1.12.4
-  origversion: 1.12.4-bp156.4.9.1
   status: legacy
   summary: DNS server written in Go
   licenses:
