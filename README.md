@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.15.0` (2026-10-21)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-11
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 14,423 · **Forks**: 2,557 · **Open issues**: 2,554 · **Contributors**: 494
+- **Stars**: 14,424 · **Forks**: 2,558 · **Open issues**: 2,554 · **Contributors**: 495
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 4730 · **Open PRs**: 100 · **Closed issues**: 2391 · **Open issues**: 163 · **Commits**: 5237
+- **Releases**: 86 · **Merged PRs**: 4737 · **Open PRs**: 101 · **Closed issues**: 2391 · **Open issues**: 163 · **Commits**: 5244
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 71 | 36 | 8 | 4 | 70 |
-| last60d | 2026-09-12 | 1 | 125 | 49 | 16 | 5 | 132 |
-| 90d | 2026-08-13 | 2 | 210 | 55 | 21 | 5 | 215 |
-| last180d | 2026-05-15 | 5 | 457 | 73 | 41 | 11 | 467 |
-| 360d | 2025-11-16 | 10 | 775 | 82 | 81 | 21 | 770 |
-| last720d | 2024-11-21 | 17 | 1182 | 88 | 139 | 73 | 1208 |
+| 30d | 2026-10-13 | 1 | 77 | 38 | 8 | 4 | 77 |
+| last60d | 2026-09-13 | 1 | 130 | 49 | 15 | 5 | 139 |
+| 90d | 2026-08-14 | 2 | 213 | 56 | 20 | 5 | 222 |
+| last180d | 2026-05-16 | 5 | 464 | 74 | 41 | 11 | 474 |
+| 360d | 2025-11-17 | 10 | 772 | 83 | 81 | 21 | 777 |
+| last720d | 2024-11-22 | 16 | 1187 | 89 | 139 | 72 | 1202 |
 
 ## Release assets
 
@@ -97,12 +97,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **60** distros on [repology.org](https://repology.org/project/coredns). **11** are ✅ on the latest upstream release, **34** are ⚠️ on an older version.
+Reported by **60** distros on [repology.org](https://repology.org/project/coredns). **12** are ✅ on the latest upstream release, **33** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Homebrew | `1.15.0` | ✅ latest |
-| Nix unstable | `1.14.7` | ⚠️ outdated |
+| Nix unstable | `1.15.0` | ✅ latest |
 | Void | `1.10.1` | ⚠️ outdated |
 | Alpine edge | `1.15.0` | ✅ latest |
 | openSUSE Tumbleweed | `1.15.0` | ✅ latest |
@@ -116,4 +116,4 @@ Install metadata for coredns lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T06:16:18Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:29:06Z._
