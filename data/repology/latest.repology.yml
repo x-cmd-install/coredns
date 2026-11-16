@@ -1,249 +1,3 @@
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: coredns
-  visiblename: coredns
-  version: 1.12.4
-  origversion: 1.12.4-bp156.4.9.1
-  status: legacy
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: coredns
-  visiblename: coredns
-  version: 1.14.0
-  origversion: 1.14.0-bp156.4.13.1
-  status: legacy
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
-- repo: alpine_3_21
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.11.3
-  origversion: 1.11.3-r5
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: DNS server that chains plugins
-- repo: alpine_3_17
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.10.0
-  origversion: 1.10.0-r6
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_17
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.10.0
-  origversion: 1.10.0-r6
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.10.1
-  origversion: 1.10.1-r8
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_18
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.10.1
-  origversion: 1.10.1-r8
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_19
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.11.1
-  origversion: 1.11.1-r5
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: DNS server that chains plugins
-- repo: alpine_3_19
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.11.1
-  origversion: 1.11.1-r5
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.11.1
-  origversion: 1.11.1-r9
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_20
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.11.1
-  origversion: 1.11.1-r9
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_21
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.11.3
-  origversion: 1.11.3-r5
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - mark@markpash.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.12.1
-  origversion: 1.12.1-r7
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.12.1
-  origversion: 1.12.1-r7
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.12.3
-  origversion: 1.12.3-r10
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.12.3
-  origversion: 1.12.3-r10
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: coredns
-  binname: coredns
-  visiblename: coredns
-  version: 1.13.2
-  origversion: 1.13.2-r7
-  status: outdated
-  summary: fast and flexible DNS server
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_24
-  subrepo: community
-  srcname: coredns
-  binname: coredns-openrc
-  visiblename: coredns-openrc
-  version: 1.13.2
-  origversion: 1.13.2-r7
-  status: outdated
-  summary: fast and flexible DNS server (OpenRC init scripts)
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - Apache-2.0
 - repo: alpine_edge
   subrepo: community
   srcname: coredns
@@ -253,6 +7,214 @@
   origversion: 1.15.0-r2
   status: newest
   summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.10.0
+  origversion: 1.10.0-r6
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.10.0
+  origversion: 1.10.0-r6
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.10.1
+  origversion: 1.10.1-r8
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.10.1
+  origversion: 1.10.1-r8
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.1
+  origversion: 1.11.1-r5
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.1
+  origversion: 1.11.1-r9
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.1
+  origversion: 1.11.1-r9
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.11.3
+  origversion: 1.11.3-r5
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.11.3
+  origversion: 1.11.3-r5
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - mark@markpash.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.12.1
+  origversion: 1.12.1-r7
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.12.1
+  origversion: 1.12.1-r7
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.12.3
+  origversion: 1.12.3-r10
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.12.3
+  origversion: 1.12.3-r10
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: coredns
+  binname: coredns
+  visiblename: coredns
+  version: 1.13.2
+  origversion: 1.13.2-r7
+  status: outdated
+  summary: fast and flexible DNS server
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: coredns
+  binname: coredns-openrc
+  visiblename: coredns-openrc
+  version: 1.13.2
+  origversion: 1.13.2-r7
+  status: outdated
+  summary: fast and flexible DNS server (OpenRC init scripts)
   maintainers:
     - achill@achill.org
   licenses:
@@ -399,6 +361,32 @@
     - BSD-2
   categories:
     - net-dns
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.12.4
+  origversion: 1.12.4-bp156.4.9.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -775,6 +763,18 @@
   visiblename: coredns
   version: 1.12.1
   origversion: 1.12.1-bp156.4.6.5
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.0
+  origversion: 1.14.0-bp156.4.13.1
   status: legacy
   summary: DNS server written in Go
   licenses:
