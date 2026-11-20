@@ -1,3 +1,17 @@
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: DNS server that chains plugins
+- repo: homebrew
+  srcname: coredns
+  visiblename: coredns
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: DNS server that chains plugins
 - repo: alpine_3_17
   subrepo: community
   srcname: coredns
@@ -361,32 +375,6 @@
     - BSD-2
   categories:
     - net-dns
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: DNS server that chains plugins
-- repo: homebrew
-  srcname: coredns
-  visiblename: coredns
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: DNS server that chains plugins
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: coredns
-  visiblename: coredns
-  version: 1.12.4
-  origversion: 1.12.4-bp156.4.9.1
-  status: legacy
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -763,6 +751,18 @@
   visiblename: coredns
   version: 1.12.1
   origversion: 1.12.1-bp156.4.6.5
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.12.4
+  origversion: 1.12.4-bp156.4.9.1
   status: legacy
   summary: DNS server written in Go
   licenses:
