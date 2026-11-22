@@ -76,18 +76,6 @@
     - mark@markpash.me
   licenses:
     - Apache-2.0
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: coredns
-  visiblename: coredns
-  version: 1.14.0
-  origversion: 1.14.0-bp156.4.13.1
-  status: legacy
-  summary: DNS server written in Go
-  licenses:
-    - Apache-2.0
-  categories:
-    - Productivity/Networking/DNS/Servers
 - repo: alpine_3_20
   subrepo: community
   srcname: coredns
@@ -387,6 +375,18 @@
   origversion: null
   status: rolling
   summary: DNS server that chains plugins
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: coredns
+  visiblename: coredns
+  version: 1.14.0
+  origversion: 1.14.0-bp156.4.13.1
+  status: legacy
+  summary: DNS server written in Go
+  licenses:
+    - Apache-2.0
+  categories:
+    - Productivity/Networking/DNS/Servers
 - repo: liguros_stable
   srcname: net-dns/coredns
   visiblename: net-dns/coredns
@@ -840,4 +840,4 @@
   status: newest
   summary: DNS server software
   licenses:
-    - Apache Software License 2.0
+    - Apache License 2.0
