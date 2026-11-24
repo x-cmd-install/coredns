@@ -1,0 +1,132 @@
+about:
+  description: "CoreDNS is a DNS server that chains plugins"
+  license: Apache-2.0
+  homepage: https://coredns.io
+  head: a060684
+  archived: false
+  latestVersion: "v1.15.0"
+  latestRelease: "v1.15.0"
+  latestPrerelease: ""
+  collectedAt: 2026-11-24T10:19:21Z
+timeline:
+  created: 2016-03-18
+  lastCommit: 2026-11-24
+  lastVersion: 2026-10-21
+  lastRelease: 2026-10-21
+  lastPrerelease: 
+popularity:
+  star: 14449
+  watcher: 221
+  fork: 2573
+  release: 86
+  contributor: 502
+  pullRequest: 6022
+  issue: 2571
+language:
+  Go: 3260820
+  Makefile: 1731
+  Dockerfile: 1184
+totalBytes: 3263735
+recent:
+  last30d:
+    since: 2026-10-25
+    release: 0
+    mergedPR: 52
+    openPR: 39
+    closedIssue: 8
+    openIssue: 16
+    commit: 52
+  last60d:
+    since: 2026-09-25
+    release: 1
+    mergedPR: 129
+    openPR: 65
+    closedIssue: 19
+    openIssue: 16
+    commit: 130
+  last90d:
+    since: 2026-08-26
+    release: 1
+    mergedPR: 199
+    openPR: 69
+    closedIssue: 24
+    openIssue: 17
+    commit: 205
+  last180d:
+    since: 2026-05-28
+    release: 5
+    mergedPR: 464
+    openPR: 90
+    closedIssue: 44
+    openIssue: 23
+    commit: 464
+  last360d:
+    since: 2025-11-29
+    release: 10
+    mergedPR: 764
+    openPR: 97
+    closedIssue: 84
+    openIssue: 31
+    commit: 770
+  last720d:
+    since: 2024-12-04
+    release: 16
+    mergedPR: 1203
+    openPR: 104
+    closedIssue: 143
+    openIssue: 83
+    commit: 1220
+total:
+  release: 86
+  mergedPR: 4757
+  openPR: 117
+  closedIssue: 2397
+  openIssue: 174
+  commit: 5264
+---
+path: /home/runner/.x-repo/github.com/coredns/coredns
+collectedAt: 2026-11-24T10:19:30Z
+loc:
+  Go:
+    code: 103102
+    comments: 7454
+    blanks: 13659
+    files: 794
+  ForgeConfig:
+    code: 62
+    comments: 19
+    blanks: 3
+    files: 1
+  Makefile:
+    code: 42
+    comments: 12
+    blanks: 12
+    files: 2
+  Yaml:
+    code: 40
+    comments: 0
+    blanks: 0
+    files: 8
+  Dockerfile:
+    code: 14
+    comments: 10
+    blanks: 2
+    files: 1
+  Protobuf:
+    code: 9
+    comments: 0
+    blanks: 3
+    files: 1
+  Markdown:
+    code: 0
+    comments: 10435
+    blanks: 2970
+    files: 156
+total:
+  code: 103432
+  comments: 17955
+  blanks: 16664
+  files: 963
+---
+
+---
