@@ -24,6 +24,15 @@ x install coredns
 | Yaml | 40 | 0 | 0 | 8 |
 | Dockerfile | 14 | 10 | 2 | 1 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **8.4 / 10**
+
+评分最低的几项:
+
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/coredns/coredns>
@@ -38,22 +47,22 @@ x install coredns
 
 ## 流行度
 
-- **Star**: 14,449 · **Fork**: 2,573 · **开放 issue**: 2,571 · **贡献者**: 502
+- **Star**: 14,449 · **Fork**: 2,574 · **开放 issue**: 2,571 · **贡献者**: 502
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4757 · **开放 PR**: 117 · **已关闭 issue**: 2397 · **开放 issue**: 174 · **提交数**: 5264
+- **发布数**: 86 · **已合并 PR**: 4757 · **开放 PR**: 119 · **已关闭 issue**: 2397 · **开放 issue**: 174 · **提交数**: 5264
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 52 | 39 | 8 | 16 | 52 |
-| last60d | 2026-09-25 | 1 | 129 | 65 | 19 | 16 | 130 |
-| 90d | 2026-08-26 | 1 | 199 | 69 | 24 | 17 | 205 |
-| last180d | 2026-05-28 | 5 | 464 | 90 | 44 | 23 | 464 |
-| 360d | 2025-11-29 | 10 | 764 | 97 | 84 | 31 | 770 |
-| last720d | 2024-12-04 | 16 | 1203 | 104 | 143 | 83 | 1220 |
+| 30d | 2026-10-26 | 0 | 50 | 41 | 6 | 16 | 52 |
+| last60d | 2026-09-26 | 1 | 129 | 67 | 19 | 16 | 130 |
+| 90d | 2026-08-27 | 1 | 197 | 71 | 24 | 17 | 205 |
+| last180d | 2026-05-29 | 5 | 463 | 91 | 44 | 23 | 464 |
+| 360d | 2025-11-30 | 10 | 763 | 99 | 84 | 31 | 770 |
+| last720d | 2024-12-05 | 16 | 1203 | 106 | 143 | 82 | 1220 |
 
 ## Release 资产
 
@@ -86,18 +95,6 @@ x install coredns
 | [coredns_1.15.0_windows_amd64.zip](https://github.com/coredns/coredns/releases/download/v1.15.0/coredns_1.15.0_windows_amd64.zip) | 22.9 MiB | `native/win/x64` |
 | [coredns_1.15.0_windows_amd64.zip.sha256](https://github.com/coredns/coredns/releases/download/v1.15.0/coredns_1.15.0_windows_amd64.zip.sha256) | 99 B | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/coredns) 上共有 **60** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**33** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Homebrew | `1.15.0` | ✅ latest |
-| Nix unstable | `1.15.0` | ✅ latest |
-| Void | `1.10.1` | ⚠️ outdated |
-| Alpine edge | `1.15.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.15.0` | ✅ latest |
-
 ## 改进这些数据
 
 coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `coredns` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +104,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:19:39Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T08:34:18Z._
