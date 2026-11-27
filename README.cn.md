@@ -30,8 +30,8 @@ x install coredns
 
 评分最低的几项:
 
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -42,27 +42,27 @@ x install coredns
 ## 发布
 
 - **最新版本**: `v1.15.0` (2026-10-21)
-- **最近提交**: 2026-11-25
+- **最近提交**: 2026-11-27
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 14,455 · **Fork**: 2,575 · **开放 issue**: 2,571 · **贡献者**: 505
+- **Star**: 14,460 · **Fork**: 2,578 · **开放 issue**: 2,571 · **贡献者**: 505
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 4759 · **开放 PR**: 126 · **已关闭 issue**: 2398 · **开放 issue**: 173 · **提交数**: 5266
+- **发布数**: 86 · **已合并 PR**: 4765 · **开放 PR**: 124 · **已关闭 issue**: 2398 · **开放 issue**: 173 · **提交数**: 5272
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 51 | 46 | 7 | 13 | 0 |
-| last60d | 2026-09-27 | 1 | 129 | 75 | 20 | 15 | 0 |
-| 90d | 2026-08-28 | 1 | 194 | 79 | 24 | 16 | 0 |
-| last180d | 2026-05-30 | 5 | 465 | 98 | 45 | 22 | 0 |
-| 360d | 2025-12-01 | 10 | 765 | 106 | 84 | 30 | 0 |
-| last720d | 2024-12-06 | 16 | 1205 | 113 | 144 | 81 | 1222 |
+| 30d | 2026-10-28 | 0 | 50 | 41 | 6 | 13 | 0 |
+| last60d | 2026-09-28 | 1 | 134 | 72 | 20 | 15 | 0 |
+| 90d | 2026-08-29 | 1 | 200 | 77 | 24 | 16 | 0 |
+| last180d | 2026-05-31 | 5 | 469 | 96 | 45 | 22 | 0 |
+| 360d | 2025-12-02 | 10 | 771 | 104 | 84 | 30 | 0 |
+| last720d | 2024-12-07 | 16 | 1211 | 111 | 144 | 81 | 1228 |
 
 ## Release 资产
 
@@ -104,4 +104,4 @@ coredns 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:34:35Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T08:36:31Z._
